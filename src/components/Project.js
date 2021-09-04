@@ -1,5 +1,5 @@
 import React from 'react';
-import { BiWorld, BiCodeBlock } from "react-icons/bi";
+import { FaLink, FaGithub } from "react-icons/fa";
 function Project({ imgURL, title, web, github }) {
     return (
         <div className="col-lg-4 col-md-6 portfolio-item filter-app">
@@ -8,10 +8,10 @@ function Project({ imgURL, title, web, github }) {
                 <div className="portfolio-info">
                     <h4>{title}</h4>
                     <div className="portfolio-links">
-                        {web && <a href={web} className="portfolio-details-lightbox"
-                            data-glightbox="type: external" title="Portfolio Details" target="_blank" rel="noreferrer"><BiWorld /></a>}
-                        {github && <a href={github} className="portfolio-details-lightbox"
-                            data-glightbox="type: external" title="Portfolio Details" target="_blank" rel="noreferrer"><BiCodeBlock /></a>}
+                        {web && <a href={web} className="portfolio-details-lightbox px-2"
+                            data-glightbox="type: external" title="Portfolio Details" target="_blank" rel="noreferrer"><FaLink /></a>}
+                        {github && <a href={github} className="portfolio-details-lightbox px-2"
+                            data-glightbox="type: external" title="Portfolio Details" target="_blank" rel="noreferrer"><FaGithub /></a>}
                     </div>
                 </div>
             </div>

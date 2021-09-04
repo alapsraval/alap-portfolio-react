@@ -1,6 +1,7 @@
 import React from 'react';
 import Project from '../components/Project';
 import { projects } from "../data/projects";
+import { FaAt, FaPhone, FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 function Main() {
     return (
@@ -130,25 +131,25 @@ function Main() {
                     <div className="row justify-content-center">
                         <div className="col-lg-3">
                             <div className="email">
-                                <i className="bi bi-envelope"></i>
+                                <i className="bi bi-envelope"><FaAt /></i>
                                 <p><a href="mailto:alapsraval@gmail.com">alapsraval@gmail.com</a></p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className="phone">
-                                <i className="bi bi-phone"></i>
+                                <i className="bi bi-phone"><FaPhone /></i>
                                 <p><a href="tel:‪630-297-7543‬">‪(630) 297-7543‬</a></p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className="linkedin">
-                                <i className="bi bi-linkedin"></i>
+                                <i className="bi"><FaLinkedinIn /></i>
                                 <p><a href="https://www.linkedin.com/in/alapsraval/" target="_blank" rel="noreferrer" >Linkedin</a></p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className="github">
-                                <i className="bi bi-github"></i>
+                                <i className="bi bi-github"><FaGithub /></i>
                                 <p><a href="https://github.com/alapsraval" target="_blank" rel="noreferrer" >Github</a></p>
                             </div>
                         </div>
