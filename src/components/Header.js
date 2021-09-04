@@ -1,5 +1,4 @@
 import React from 'react';
-import { BiUser } from "react-icons/bi";
 import Navbar from '../components/Navbar';
 
 function Header() {
