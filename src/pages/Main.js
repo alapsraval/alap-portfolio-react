@@ -1,5 +1,7 @@
 import React from 'react';
-import ProfilePic from '../assets/img/alap-profile-pic.jpeg';
+import Project from '../components/Project';
+import { projects } from "../data/projects";
+
 function Main() {
     return (
         <main id="main">
@@ -12,7 +14,7 @@ function Main() {
 
                     <div className="row">
                         <div className="col-lg-3">
-                            <img src={ProfilePic} className="img-fluid" alt="" />
+                            <img src="./assets/img/alap-profile-pic.jpeg" className="img-fluid" alt="" />
                         </div>
                         <div className="col-lg-9 pt-4 pt-lg-0 content">
                             <p>
@@ -45,151 +47,9 @@ function Main() {
                     </div>
 
                     <div className="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-                            <div className="portfolio-wrap">
-                                <img src="assets/img/workout-tracker.png" className="img-fluid" alt="" />
-                                <div className="portfolio-info">
-                                    <h4>Workout Tracker using MongoDB</h4>
-                                    <div className="portfolio-links">
-                                        <a href="https://alap-workout-tracker.herokuapp.com/" className="portfolio-details-lightbox"
-                                            data-glightbox="type: external" title="Portfolio Details" target="_blank"><i
-                                                className='bx bx-globe'></i></a>
-                                        <a href="https://github.com/alapsraval/workout-tracker" className="portfolio-details-lightbox"
-                                            data-glightbox="type: external" title="Portfolio Details" target="_blank"><i
-                                                className='bx bxl-github'></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-                            <div className="portfolio-wrap">
-                                <img src="assets/img/project-1.jpeg" className="img-fluid" alt="" />
-                                <div className="portfolio-info">
-                                    <h4>Data Analysis using Pandas</h4>
-                                    <div className="portfolio-links">
-                                        <a href="https://github.com/alapsraval/pandas-data-analysis" className="portfolio-details-lightbox"
-                                            data-glightbox="type: external" title="Portfolio Details" target="_blank"><i
-                                                className="bx bxl-github"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-                            <div className="portfolio-wrap">
-                                <img src="assets/img/project-2.jpeg" className="img-fluid" alt="" />
-                                <div className="portfolio-info">
-                                    <h4>Plotly Interactive Dashboard</h4>
-                                    <div className="portfolio-links">
-                                        <a href="https://alapsraval.github.io/plotly-interactive-dashboard/"
-                                            className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"
-                                            target="_blank"><i className="bx bx-globe"></i></a>
-                                        <a href="https://github.com/alapsraval/plotly-interactive-dashboard"
-                                            className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"
-                                            target="_blank"><i className="bx bxl-github"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-                            <div className="portfolio-wrap">
-                                <img src="assets/img/coronavirus.jpeg" className="img-fluid" alt="" />
-                                <div className="portfolio-info">
-                                    <h4>Covid Catcher</h4>
-                                    <div className="portfolio-links">
-                                        <a href="https://alapsraval.github.io/covid-catcher/" className="portfolio-details-lightbox"
-                                            data-glightbox="type: external" title="Portfolio Details" target="_blank"><i
-                                                className="bx bx-globe"></i></a>
-                                        <a href="https://github.com/alapsraval/covid-catcher" className="portfolio-details-lightbox"
-                                            data-glightbox="type: external" title="Portfolio Details" target="_blank"><i
-                                                className="bx bxl-github"></i></a>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-                            <div className="portfolio-wrap">
-                                <img src="assets/img/weather-dashboard.jpeg" className="img-fluid" alt="" />
-                                <div className="portfolio-info">
-                                    <h4>Weather Dashboard</h4>
-                                    <div className="portfolio-links">
-                                        <a href="https://alapsraval.github.io/weather-dashboard/" className="portfolio-details-lightbox"
-                                            data-glightbox="type: external" title="Portfolio Details" target="_blank"><i
-                                                className="bx bx-globe"></i></a>
-                                        <a href="https://github.com/alapsraval/weather-dashboard" className="portfolio-details-lightbox"
-                                            data-glightbox="type: external" title="Portfolio Details" target="_blank"><i
-                                                className="bx bxl-github"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-                            <div className="portfolio-wrap">
-                                <img src="assets/img/html.jpeg" className="img-fluid" alt="" />
-                                <div className="portfolio-info">
-                                    <h4>Coding Quiz</h4>
-                                    <div className="portfolio-links">
-                                        <a href="https://alapsraval.github.io/html-coding-quiz/" className="portfolio-details-lightbox"
-                                            data-glightbox="type: external" title="Portfolio Details" target="_blank"><i
-                                                className="bx bx-globe"></i></a>
-                                        <a href="https://github.com/alapsraval/html-coding-quiz" className="portfolio-details-lightbox"
-                                            data-glightbox="type: external" title="Portfolio Details" target="_blank"><i
-                                                className="bx bxl-github"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-                            <div className="portfolio-wrap">
-                                <img src="assets/img/password.jpeg" className="img-fluid" alt="" />
-                                <div className="portfolio-info">
-                                    <h4>Password Generator</h4>
-                                    <div className="portfolio-links">
-                                        <a href="https://alapsraval.github.io/password-generator/" className="portfolio-details-lightbox"
-                                            data-glightbox="type: external" title="Portfolio Details" target="_blank"><i
-                                                className="bx bx-globe"></i></a>
-                                        <a href="https://github.com/alapsraval/password-generator" className="portfolio-details-lightbox"
-                                            data-glightbox="type: external" title="Portfolio Details" target="_blank"><i
-                                                className="bx bxl-github"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-card">
-                            <div className="portfolio-wrap">
-                                <img src="assets/img/project-4.jpeg" className="img-fluid" alt="" />
-                                <div className="portfolio-info">
-                                    <h4>Web Scraping with Python</h4>
-                                    <div className="portfolio-links">
-                                        <a href="https://github.com/alapsraval/web-scraping-application" className="portfolio-details-lightbox"
-                                            title="Portfolio Details" target="_blank"><i className="bx bxl-github"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-                            <div className="portfolio-wrap">
-                                <img src="assets/img/project-5.jpeg" className="img-fluid" alt="" />
-                                <div className="portfolio-info">
-                                    <h4>Data Journalism and D3</h4>
-                                    <div className="portfolio-links">
-                                        <a href="https://alapsraval.github.io/D3-data-journalism/" className="portfolio-details-lightbox"
-                                            data-glightbox="type: external" title="Portfolio Details" target="_blank"><i
-                                                className="bx bx-globe"></i></a>
-                                        <a href="https://github.com/alapsraval/D3-data-journalism/" className="portfolio-details-lightbox"
-                                            data-glightbox="type: external" title="Portfolio Details" target="_blank"><i
-                                                className="bx bxl-github"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        {projects.map((project) => (
+                            <Project imgURL={project.image} title={project.title} web={project.web} github={project.github} key={project.title} />
+                        ))}
                     </div>
                 </div>
             </section>
@@ -198,7 +58,7 @@ function Main() {
 
                     <div className="section-title">
                         <h2>Experience</h2>
-                        <h4><a className="text-success" href="./assets/docs/Alap_Raval_Resume.pdf" target="_blank"><i
+                        <h4><a className="text-success" href="../assets/docs/Alap_Raval_Resume.pdf" target="_blank" rel="noreferrer" ><i
                             className='bx bx-cloud-download'></i> Download Resume</a></h4>
                     </div>
 
@@ -283,13 +143,13 @@ function Main() {
                         <div className="col-lg-3">
                             <div className="linkedin">
                                 <i className="bi bi-linkedin"></i>
-                                <p><a href="https://www.linkedin.com/in/alapsraval/" target="_blank">Linkedin</a></p>
+                                <p><a href="https://www.linkedin.com/in/alapsraval/" target="_blank" rel="noreferrer" >Linkedin</a></p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className="github">
                                 <i className="bi bi-github"></i>
-                                <p><a href="https://github.com/alapsraval" target="_blank">Github</a></p>
+                                <p><a href="https://github.com/alapsraval" target="_blank" rel="noreferrer" >Github</a></p>
                             </div>
                         </div>
                     </div>
