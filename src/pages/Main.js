@@ -59,7 +59,7 @@ function Main() {
 
                     <div className="section-title">
                         <h2>Experience</h2>
-                        <h4><a className="text-success" href="../assets/docs/Alap_Raval_Resume.pdf" target="_blank" rel="noreferrer" ><i
+                        <h4><a className="text-success" href="./assets/docs/Alap_Raval_Resume.pdf" target="_blank" rel="noreferrer" ><i
                             className='bx bx-cloud-download'></i> Download Resume</a></h4>
                     </div>
 
