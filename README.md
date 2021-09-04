@@ -2,6 +2,8 @@
 
 This is my portfolio website build using React.
 
+You can visit the page here - https://alapsraval.github.io/alap-portfolio-react/
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -30,3 +32,6 @@ Your app is ready to be deployed!
 ## Learn More
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Screenshot
+![Introduction](./public/assets/img/Screenshot-1.png)
