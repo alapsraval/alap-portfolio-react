@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/alap-portfolio-react/static/css/main.f2dcc4f2.chunk.css",
-    "main.js": "/alap-portfolio-react/static/js/main.7941c403.chunk.js",
-    "main.js.map": "/alap-portfolio-react/static/js/main.7941c403.chunk.js.map",
+    "main.js": "/alap-portfolio-react/static/js/main.6eb4469d.chunk.js",
+    "main.js.map": "/alap-portfolio-react/static/js/main.6eb4469d.chunk.js.map",
     "runtime-main.js": "/alap-portfolio-react/static/js/runtime-main.002207e1.js",
     "runtime-main.js.map": "/alap-portfolio-react/static/js/runtime-main.002207e1.js.map",
     "static/css/2.818011ed.chunk.css": "/alap-portfolio-react/static/css/2.818011ed.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.818011ed.chunk.css",
     "static/js/2.ce70f5a4.chunk.js",
     "static/css/main.f2dcc4f2.chunk.css",
-    "static/js/main.7941c403.chunk.js"
+    "static/js/main.6eb4469d.chunk.js"
   ]
 }
