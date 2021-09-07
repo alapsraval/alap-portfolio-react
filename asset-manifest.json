@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/alap-portfolio-react/static/css/main.f2dcc4f2.chunk.css",
+    "main.css": "/alap-portfolio-react/static/css/main.f206a6c0.chunk.css",
     "main.js": "/alap-portfolio-react/static/js/main.4d70d9c2.chunk.js",
     "main.js.map": "/alap-portfolio-react/static/js/main.4d70d9c2.chunk.js.map",
     "runtime-main.js": "/alap-portfolio-react/static/js/runtime-main.002207e1.js",
@@ -10,14 +10,14 @@
     "static/js/2.ce70f5a4.chunk.js.map": "/alap-portfolio-react/static/js/2.ce70f5a4.chunk.js.map",
     "index.html": "/alap-portfolio-react/index.html",
     "static/css/2.818011ed.chunk.css.map": "/alap-portfolio-react/static/css/2.818011ed.chunk.css.map",
-    "static/css/main.f2dcc4f2.chunk.css.map": "/alap-portfolio-react/static/css/main.f2dcc4f2.chunk.css.map",
+    "static/css/main.f206a6c0.chunk.css.map": "/alap-portfolio-react/static/css/main.f206a6c0.chunk.css.map",
     "static/js/2.ce70f5a4.chunk.js.LICENSE.txt": "/alap-portfolio-react/static/js/2.ce70f5a4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.002207e1.js",
     "static/css/2.818011ed.chunk.css",
     "static/js/2.ce70f5a4.chunk.js",
-    "static/css/main.f2dcc4f2.chunk.css",
+    "static/css/main.f206a6c0.chunk.css",
     "static/js/main.4d70d9c2.chunk.js"
   ]
 }
